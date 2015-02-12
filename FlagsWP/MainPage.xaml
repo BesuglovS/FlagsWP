@@ -1,0 +1,182 @@
+﻿<Page x:Class="FlagsWP.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:local="using:FlagsWP"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      mc:Ignorable="d"
+      Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+      Loaded="Page_Loaded">
+
+    <StackPanel Orientation="Vertical">
+        <StackPanel x:Name="healthStack"
+                    Orientation="Horizontal"
+                    HorizontalAlignment="Center"
+                    Height="80">
+        </StackPanel>
+        <Image x:Name="Flag"
+               Height="260"></Image>
+
+        <StackPanel x:Name="answer"
+                    Height="40"
+                    Orientation="Horizontal"
+                    HorizontalAlignment="Center"
+                    Margin="0 10 0 0">
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal"
+                    HorizontalAlignment="Center">
+            <Button x:Name="b11"
+                    Content="1"
+                    Width="36"
+                    MinWidth="36"
+                    Margin="5"
+                    Click="LetterButtonClicked"
+                    FontSize="12"></Button>
+            <Button x:Name="b12"
+                    Content="2"
+                    Width="36"
+                    MinWidth="36"
+                    Margin="5"
+                    Click="LetterButtonClicked"
+                    FontSize="12"></Button>
+            <Button x:Name="b13"
+                    Content="3"
+                    Width="36"
+                    MinWidth="36"
+                    Margin="5"
+                    Click="LetterButtonClicked"
+                    FontSize="12"></Button>
+            <Button x:Name="b14"
+                    Content="4"
+                    Width="36"
+                    MinWidth="36"
+                    Margin="5"
+                    Click="LetterButtonClicked"
+                    FontSize="12"></Button>
+            <Button x:Name="b15"
+                    Content="5"
+                    Width="36"
+                    MinWidth="36"
+                    Margin="5"
+                    Click="LetterButtonClicked"
+                    FontSize="12"></Button>
+            <Button x:Name="b16"
+                    Content="6"
+                    Width="36"
+                    MinWidth="36"
+                    Margin="5"
+                    Click="LetterButtonClicked"
+                    FontSize="12"></Button>
+            <Button x:Name="b17"
+                    Content="7"
+                    Width="36"
+                    MinWidth="36"
+                    Margin="5"
+                    Click="LetterButtonClicked"
+                    FontSize="12"></Button>
+            <Button x:Name="b18"
+                    Content="8"
+                    Width="36"
+                    MinWidth="36"
+                    Margin="5"
+                    Click="LetterButtonClicked"
+                    FontSize="12"></Button>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal"
+                    HorizontalAlignment="Center">
+            <Button x:Name="b21"
+                    Content="1"
+                    Width="36"
+                    MinWidth="36"
+                    Margin="5"
+                    Click="LetterButtonClicked"
+                    FontSize="12"></Button>
+            <Button x:Name="b22"
+                    Content="2"
+                    Width="36"
+                    MinWidth="36"
+                    Margin="5"
+                    Click="LetterButtonClicked"
+                    FontSize="12"></Button>
+            <Button x:Name="b23"
+                    Content="3"
+                    Width="36"
+                    MinWidth="36"
+                    Margin="5"
+                    Click="LetterButtonClicked"
+                    FontSize="12"></Button>
+            <Button x:Name="b24"
+                    Content="4"
+                    Width="36"
+                    MinWidth="36"
+                    Margin="5"
+                    Click="LetterButtonClicked"
+                    FontSize="12"></Button>
+            <Button x:Name="b25"
+                    Content="5"
+                    Width="36"
+                    MinWidth="36"
+                    Margin="5"
+                    Click="LetterButtonClicked"
+                    FontSize="12"></Button>
+            <Button x:Name="b26"
+                    Content="6"
+                    Width="36"
+                    MinWidth="36"
+                    Margin="5"
+                    Click="LetterButtonClicked"
+                    FontSize="12"></Button>
+            <Button x:Name="b27"
+                    Content="7"
+                    Width="36"
+                    MinWidth="36"
+                    Margin="5"
+                    Click="LetterButtonClicked"
+                    FontSize="12"></Button>
+            <Button x:Name="b28"
+                    Content="8"
+                    Width="36"
+                    MinWidth="36"
+                    Margin="5"
+                    Click="LetterButtonClicked"
+                    FontSize="12"></Button>
+        </StackPanel>
+
+        <StackPanel x:Name="next"></StackPanel>
+
+    </StackPanel>
+
+    <Page.BottomAppBar>
+        <CommandBar>
+            <CommandBar.PrimaryCommands>
+                <AppBarButton Click="RU_Click">
+                    <AppBarButton.Icon>
+                        <BitmapIcon UriSource="ms-appx:///Icons/AppBar/RU.png" />
+                    </AppBarButton.Icon>
+                </AppBarButton>
+                <AppBarButton Click="EN_Click">
+                    <AppBarButton.Icon>
+                        <BitmapIcon UriSource="ms-appx:///Icons/AppBar/EN.png" />
+                    </AppBarButton.Icon>
+                </AppBarButton>
+                <AppBarButton Click="DE_Click">
+                    <AppBarButton.Icon>
+                        <BitmapIcon UriSource="ms-appx:///Icons/AppBar/DE.png" />
+                    </AppBarButton.Icon>
+                </AppBarButton>
+                <AppBarButton Click="FR_Click">
+                    <AppBarButton.Icon>
+                        <BitmapIcon UriSource="ms-appx:///Icons/AppBar/FR.png" />
+                    </AppBarButton.Icon>
+                </AppBarButton>
+            </CommandBar.PrimaryCommands>
+            <CommandBar.SecondaryCommands>
+                <AppBarButton Label="Страны"
+                              Click="Countries_Click" />
+                <AppBarButton Label="Столицы"
+                              Click="Capitals_Click" />
+            </CommandBar.SecondaryCommands>
+        </CommandBar>
+    </Page.BottomAppBar>
+</Page>

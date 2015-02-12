@@ -1,0 +1,4 @@
+MainPackage=E:\wpapps\FlagsWP\FlagsWP\bin\Release\FlagsWP_1.1.0.2_Bundle\FlagsWP_1.1.0.2_AnyCPU.appx
+SymbolPackage=E:\wpapps\FlagsWP\FlagsWP\AppPackages\FlagsWP_1.1.0.2_Test\FlagsWP_1.1.0.2_AnyCPU.appxsym
+ResourcePack=E:\wpapps\FlagsWP\FlagsWP\bin\Release\FlagsWP_1.1.0.2_Bundle\FlagsWP_1.1.0.2_scale-100.appx
+ResourcePack=E:\wpapps\FlagsWP\FlagsWP\bin\Release\FlagsWP_1.1.0.2_Bundle\FlagsWP_1.1.0.2_scale-140.appx
